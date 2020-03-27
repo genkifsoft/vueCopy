@@ -1,0 +1,20 @@
+{
+    "dashboard": {
+        "category": {
+            "title": "Danh mục",
+            "count": 140
+        },
+        "comment": {
+            "title": "Bình luận",
+            "count": 120
+        },
+        "user": {
+            "title": "Người dùng đăng ký",
+            "count": 200
+        },
+        "article": {
+            "title": "Bài viết",
+            "count": 200
+        }
+    }
+}
