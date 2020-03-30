@@ -1,6 +1,6 @@
 <template>
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
+	<!-- Content Wrapper. Contains page content -->
+	<div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
@@ -42,7 +42,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-				        <h3>{{comment.count}}</h3>
+				<h3>{{comment.count}}</h3>
                 <p>{{comment.title}}</p>
               </div>
               <div class="icon">
@@ -242,22 +242,22 @@ export default {
         };
 	},
 	created() {
-		this.getTotal();
+		// this.getTotal();
 	},
 	methods: {
-		getTotal() {
-			axios.get('https://slack.com/api/users.list')
-			.then(res => {
-				console.log(res);
-				this.category = data.dashboard.category,
-				this.comment  = data.dashboard.comment,
-				this.user     = data.dashboard.user,
-				this.article  = data.dashboard.article
-			})
-			.catch(err => {
-				console.log('err',err);
-			});
-		}
+		// getTotal() {
+		// 	axios.get('https://slack.com/api/users.list')
+		// 	.then(res => {
+		// 		console.log(res);
+		// 		this.category = data.dashboard.category,
+		// 		this.comment  = data.dashboard.comment,
+		// 		this.user     = data.dashboard.user,
+		// 		this.article  = data.dashboard.article
+		// 	})
+		// 	.catch(err => {
+		// 		console.log('err',err);
+		// 	});
+		// }
 	}
 };
 </script>

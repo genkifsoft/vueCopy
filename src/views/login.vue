@@ -78,21 +78,21 @@ export default {
     },
     methods: {
         login: function () {
-            var app = this
-            this.$auth.login({
-                params: {
-                email: 'dangquy123',
-                password: 'Abc12345678!'
-                },
-                success: function (response) {
-                    $("body").removeClass("login-page");
-                    // window.location.href = "admin/dashboard"
-                    this.$router.push({name: 'dashboard'})
-                },
-                error: function () {
-                app.error = true
-                },
-            })
+            // var app = this
+            // this.$auth.login({
+            //     params: {
+            //     email: 'dangquy123',
+            //     password: 'Abc12345678!'
+            //     },
+            //     success: function (response) {
+            //         $("body").removeClass("login-page");
+            //         // window.location.href = "admin/dashboard"
+            //         this.$router.push({name: 'dashboard'})
+            //     },
+            //     error: function () {
+            //     app.error = true
+            //     },
+            // })
         },
     }
 }

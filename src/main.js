@@ -3,10 +3,10 @@ import App from './App.vue'
 import VueAuth from '@websanova/vue-auth';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
-import router from '../router/router'
 import VueRouter from 'vue-router';
 // import data from "../data.json";
-import auth from '../router/auth';
+import auth from './router/auth';
+import router from './router/router';
 import mixin from '../library/mixin';
 
 Vue.use(VueAxios, axios);

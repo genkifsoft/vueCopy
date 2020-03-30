@@ -126,11 +126,17 @@
 
 <script>
 export default {
-    name: 'nav_name',
-    data() {
-    return {
-        title: 'nav'
-    };
-  }
+	name: 'AdminNavElement',
+	data() {
+		return {
+			title: 'nav'
+		}
+	},
+	created() {
+
+	},
+	methods: {
+
+	}
 };
 </script>
