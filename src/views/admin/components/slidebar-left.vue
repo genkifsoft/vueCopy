@@ -536,7 +536,7 @@
     
 <script>
 export default {
-    name: 'slidebar_left',
+    name: 'AdminSlidebarLeft',
     data() {
     return {
         title: 'slider'

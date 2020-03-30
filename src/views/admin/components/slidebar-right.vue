@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'slidebar_right',
+  name: 'AdminSlidebarRight',
   data() {
     return {
         title: 'footer'

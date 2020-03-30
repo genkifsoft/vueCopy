@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'footer_name',
+  name: 'AdminFooterElement',
   data() {
     return {
         title: 'footer'
