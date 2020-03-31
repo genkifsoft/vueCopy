@@ -1,7 +1,7 @@
 import VueRouter from 'vue-router';
-import Dashboard from '../views/admin/dashboard';
-import Login from '../views/login';
-import AdminComponent from '../views/admin/components/AdminComponent';
+import Dashboard from '@/views/admin/dashboard';
+import Login from '@/views/login';
+import AdminComponent from '@/views/admin/components/AdminComponent';
 // import Home from '../views/user/home';
 // import NotFound from '../src/views/404';
 
