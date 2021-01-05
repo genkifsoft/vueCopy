@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@websanova/vue-auth": "^2.22.0-beta",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
     "core-js": "^3.6.4",
